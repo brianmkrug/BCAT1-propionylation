@@ -12,7 +12,8 @@ docstring or opening lines name the files it reads.
 | scRNA-seq of HSJ019 K27M / K27M-KO xenografts | GEO GSE205249 (Krug et al., 2026) | 1A–B, S1A, S2E, S4G |
 | Metabolon profiling (isogenic cell lines, xenografts; raw and normalized) | Supplementary source-data workbook `BCAT1_SourceData_Metabolon_AcylCoA.xlsx` (sheets M1–M3) | 1D–G, S1B–E, S3D, S3F |
 | Acyl-CoA quantification and ¹³C-BCAA isotope tracing (LC-HRMS), including the instrument export | Supplementary source-data workbook `BCAT1_SourceData_Metabolon_AcylCoA.xlsx` (sheets A1–A8) | 4B–E, S4A |
-| Histone PTM mass spectrometry and proteomics | **[confirm ProteomeXchange/PRIDE accession]** | 5A–B, 5E, S5A, S5G–H, S5J |
+| Histone PTM mass spectrometry (raw data) | ProteomeXchange **PXD085778** (private until publication) | 5A–B, 5E, S5A, S5G–H |
+| Nuclear quantitative proteomics (iBAQ) | ProteomeXchange via the PRIDE partner repository, **PXD044837** | S5J |
 | Metabolism-focused CRISPR screen (MAGeCK MLE beta scores) | **[confirm supplementary table]** | 2B, S2A |
 | Immunoblot, clonogenic, α-KG assay and immunofluorescence quantification | **[confirm source data file]** | S2B, S3B, S3E, S3G–H, S5D, S6B–E, S7E |
 | Luxol fast blue optical density (QuPath) | **[confirm source data file]** | 3H |
