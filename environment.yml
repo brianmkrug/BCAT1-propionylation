@@ -1,0 +1,22 @@
+name: bcat1-figures
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - pip
+  # command-line tools used by CUTRUN/scripts/*.sh
+  - samtools
+  - bedtools
+  - deeptools
+  - macs2
+  # R, used by CUTRUN/scripts/phase3_edger.R and scRNA_mouse/gsea_analysis/scripts/relabel_figs_v2.R
+  - r-base>=4.3
+  - bioconductor-edger
+  - r-dplyr
+  - r-ggplot2
+  - r-ggrepel
+  - r-hexbin
+  - r-patchwork
+  - r-ragg
+  - r-scales
+  - pip:
+      - -r requirements.txt

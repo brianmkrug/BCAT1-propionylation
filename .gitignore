@@ -1,0 +1,37 @@
+# Data and generated outputs are not version-controlled here; see DATA_AVAILABILITY.md
+*.h5ad
+*.h5
+*.npz
+*.parquet
+*.rds
+*.bam
+*.bai
+*.bw
+*.bigwig
+*.bed
+*.bedgraph
+*.fastq*
+*.fq*
+*.mtx*
+*.gz
+*.xlsx
+*.xls
+*.csv
+*.tsv
+!FIGURE_INDEX.tsv
+*.png
+*.pdf
+*.svg
+*.ai
+work/
+out/
+figures/
+plots/
+__pycache__/
+*.pyc
+.DS_Store
+.Rhistory
+.ipynb_checkpoints/
+
+# local notes, not for publication
+_INTERNAL_*.md

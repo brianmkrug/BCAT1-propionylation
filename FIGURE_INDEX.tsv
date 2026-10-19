@@ -1,0 +1,125 @@
+figure	panel	kind	script	provenance	output_stem	note
+1	A	plot	scXenograft/scripts/ze5_manifold_hex.py	original	scXenograft/figures/pooled_manifold_representation_5lib_hex	left two sub-panels (genotype UMAP, hexbin pseudotime); upstream: za1_pool5_harmony.py, za2_pool5_dpt.py, za3_pool5_celltype.py
+1	B	plot	scXenograft/scripts/ze3_hexbin_bygenotype.py	original	scXenograft/figures/pooled5_hexbin_celltype_bygenotype	majority lineage label per hex; labels from za3_pool5_celltype.py
+1	C	schematic		n/a	biorender figures/1A	BioRender
+1	D	plot	metabolon data/analysis/plot_global_heatmap_splitz.py	original	metabolon data/analysis/figures/global_heatmap_splitz	plot_global_heatmap_splitz_v2.py writes the same file but is an earlier version
+1	E	plot	metabolon data/analysis/plot_gsea_xeno_noHSJ_v2.py	original	metabolon data/analysis/figures/GSEA_xenograft_subpathway_noHSJ	plot_gsea_xeno_noHSJ.py (included) writes the same file; _v2 is the most likely source
+1	F	plot	metabolon data/analysis/plot_xeno_volcano_BCAA_final.py	original	metabolon data/analysis/figures/xenograft_volcano_BCAA_adjacent_final	
+1	G	plot	metabolon data/analysis/plot_combined_BCAA_tetradecglyco.py	original	metabolon data/analysis/figures/xenograft_BCAA_tetradecglyco_combined	all 14 sub-panels in one file
+S1	A	plot	scXenograft/scripts/ze4_density.py	original	scXenograft/figures/pooled5_density_binned_xcut	x axis cut to 0.2-0.8
+S1	B	plot	metabolon data/analysis/plot_pca_aggregate.py	original	metabolon data/analysis/figures/pca_aggregate_PC1PC2	
+S1	C	plot	metabolon data/analysis/plot_bcaa_bckA_cellculture_v2.py	original	metabolon data/analysis/figures/cellculture_BCAA_BCKA_bars_v2	
+S1	D	plot	metabolon data/analysis/plot_gsea_cellculture_styled.py	original	metabolon data/analysis/figures/GSEA_cellculture_subpathway	
+S1	E	plot	metabolon data/analysis/plot_SM_ceramide_v2style.py	original	metabolon data/analysis/figures/secondary/cellculture_SM_ceramide_bars_v2	
+S1	F	plot	metabolon data/analysis/plot_composite_figure.py	original	metabolon data/analysis/figures/Myelin_composition_nested_pie	literature values, not primary data
+S1	G	plot	jessa2022_metabolic_ssgsea/scripts/dotplot_panel20e.py	original	jessa2022_metabolic_ssgsea/dotplot_panel_top20lipid_grouped_v2	dotplot_panel20c.py and 20d.py (included) write the same file; 20e is the most likely source
+S1	H	plot	jessa2022_metabolic_ssgsea/scripts/volcano.py	original	jessa2022_metabolic_ssgsea/volcano_metabolic_K27M_vs_nonDMG	
+2	A	schematic		n/a	biorender figures/CRISPR schema	BioRender
+2	B	plot	CRISPR screen/gsea_out/stacked_dotplot_NES_K27M_KO.py	original	CRISPR screen/gsea_out/stacked_dotplot_NES_K27M_KO_v2	rank curves + NES bars in one file
+2	C	wetlab		n/a		clonogenic plate scans; quantified in S2B
+2	D	wetlab		n/a		immunoblot
+2	E	plot	human_data/hs_figB5v2_bcat_myc.py	original	human_data/figB5v2_bcat_myc	Velmeshev et al. 2023 OPC-to-oligodendrocyte pseudotime
+2	F	plot		missing		no code available
+2	G	plot		missing		no code available
+2	H	wetlab		n/a		dual IHC H3K27M / BCAT1
+S2	A	plot	CRISPR screen/depmap_classification/03_composition_selective_plot.py	original	CRISPR screen/depmap_classification/fig_K27M_depmap_composition_selective	left half; right half = fig_K27M_top200_depmap_waterfall.svg from 02_waterfall_plot.py; classes from 01_classify_depmap.py
+S2	B	plot	manuscript bar plots/plot_Clonogenic.py	original	manuscript bar plots/Clonogenic_barplots	paired t-test
+S2	C	wetlab		n/a		immunoblot +/- EGF/bFGF
+S2	D	plot	xHSJ019_K27M_vs_KO_analysis/fig_metabolic_heatmap_concordant.py	original	xBT245_K27M_vs_KO_analysis/figures/fig_metabolic_heatmap_HSJ019_BT245_concordant	
+S2	E	plot	scXenograft/scripts/zd7_bcat_stacked.py	original	scXenograft/figures/bcaa_gene_heatmap_bcat_only_5lib_stacked	BCAT1/BCAT2 across pooled pseudotime bins
+S2	F	plot	post_gastrulation/scripts_post_gastrulation/fig_bcat12_v2.py	original	post_gastrulation/zeng2023_BCAT1_vs_BCAT2_v2	left heatmaps of the output file (Zeng et al. 2023); upstream: extract.py, marker_labels.py, bcat_summary.py
+S2	G	plot	post_gastrulation/scripts_post_gastrulation/fig_bcat12_v2.py	original	post_gastrulation/zeng2023_BCAT1_vs_BCAT2_v2	right bar chart of the same output file
+S2	H	plot		missing		no code available
+S2	I	plot		missing		no code available
+S2	J	plot		missing		no code available
+S2	K	plot	CAGE/CAGE_SUDIPGXIII_motif_analysis/make_SUDIPGXIII_motif_logo_table.py	original	CAGE/CAGE_SUDIPGXIII_motif_analysis/SUDIPGXIII_motif_logo_table	rebuilt from the DNAFORM CAGE de novo motif-discovery output
+S2	L	plot		missing	CAGE/CAGE_BCAT1_TF_motif_scan/BCAT1_promoter_motifmap	no code available
+S2	M	wetlab		n/a		immunoblot
+3	A	wetlab		n/a		immunoblot
+3	B	plot	plasmidsaurusRNAseq/compare_inducible_vs_BT245_concordant_top5.py	original	plasmidsaurusRNAseq/analysis_excl_outliers/COMPARE_inducible_vs_BT245/GSEA_braindex_glial_dotplot_concordant_top5	DIPGXIII and BT245 shBCAT1 RNA-seq are separate sequencing batches (DIPGXIII: inducible shRNA)
+3	C	plot	plasmidsaurusRNAseq/metabolic_dotplot_simplified_srebp.py	original	plasmidsaurusRNAseq/analysis_excl_outliers/COMPARE_inducible_vs_BT245/GSEA_metabolic_dotplot_simplified_srebp	DIPGXIII and BT245 shBCAT1 RNA-seq are separate sequencing batches (DIPGXIII: inducible shRNA)
+3	D	schematic		n/a	biorender figures/lineage	BioRender
+3	E	wetlab		n/a		immunoblot; quantified in S3B
+3	F	plot	BCAT1_KO_analysis/plot_volcano_P6_P90.py	rebuilt-verified	BCAT1_KO_analysis/figures/volcano_P6_P90_customsets	rebuilt; gene-level -log10 p values reproduce the published panel
+3	G	plot	BCAT1_KO_analysis/plot_gsea_enrichment_OPC_P6.py	rebuilt-verified	BCAT1_KO_analysis/figures/gsea_enrichment_OPC_P6	rebuilt; ES 0.536 / NES 2.71 reproduce the published panel
+3	H	plot	LFB/analyze_pooled.py	original	LFB/deconvolved/lfb_barplot_noWT1_4x2cm	Welch t on per-animal means, Holm-corrected
+3	I	wetlab		n/a		PDGFRA IHC + Luxol fast blue
+S3	A	plot	plasmidsaurusRNAseq/srebp_gseaplot_composite.py	original	plasmidsaurusRNAseq/analysis_excl_outliers/COMPARE_inducible_vs_BT245/srebp_gseaplots/gseaplot_SREBP_composite	DIPGXIII and BT245 shBCAT1 RNA-seq are separate sequencing batches (DIPGXIII: inducible shRNA)
+S3	B	plot	manuscript bar plots/plot_Bcat1KO_WB_BCAT2_MBP.py	original	manuscript bar plots/Bcat1KO_WB_BCAT2_MBP	Welch t, n=3/group
+S3	C	plot		missing	BCAT1_KO_analysis/figures/outlier_corrected/metab_pathway_grouped_zscore_heatmap_P6only	no code available
+S3	D	plot	metabolon data/analysis/plot_akg_glutamate_cellculture.py	original	metabolon data/analysis/figures/cellculture_aKG_glutamate_bars	
+S3	E	plot	manuscript bar plots/plot_aKG_assay.py	original	manuscript bar plots/aKG_assay_barplots	Welch t, n=3/group
+S3	F	plot	metabolon data/analysis/plot_glutathione_cellculture.py	original	metabolon data/analysis/figures/cellculture_glutathione_bars	
+S3	G	plot	manuscript bar plots/plot_S6phos_DMG_WB.py	original	manuscript bar plots/S6phos_DMG_WB_barplot	ratio-paired one-sample t vs 1
+S3	H	plot	manuscript bar plots/plot_S6phos_brain_WB.py	original	manuscript bar plots/S6phos_brain_WB_barplot	Welch t, n=3/group
+S3	I	plot	plasmidsaurusRNAseq/shbcat1_ros_gsea_v2.py	original	plasmidsaurusRNAseq/analysis_excl_outliers/GSEA_shBCAT1_ROS/GSEA_shBCAT1_ROS_glutathione_dotplot	GSEA computed by plasmidsaurusRNAseq/shbcat1_ros_gsea.py
+4	A	schematic		n/a	biorender figures/Flux model	BioRender
+4	B	plot		missing	isotope/log2FC_CoA_species	no code available; values are log2 ratios of mean total acyl-CoA pools (sum of isotopologue peak areas), Student's t-test
+4	C	plot	isotope/plot_molar_enrichment_K27M_vs_KO.py	rebuilt-verified	isotope/K27M_vs_KO_molar_enrichment	rebuilt; all q values reproduce the published panel
+4	D	plot	isotope/plot_propionylCoA_stacked.py	rebuilt-verified	isotope/shBCAT1_propionylCoA_stacked	rebuilt; p values and bar heights reproduce the published panel
+4	E	plot	isotope/plot_propionylCoA_stacked.py	rebuilt-verified	isotope/SCM_propionylCoA_stacked	rebuilt; p values and bar heights reproduce the published panel; file stem 'SCM' = stem-cell factor (SCF) condition
+S4	A	plot	isotope/plot_propionylCoA_stacked.py	rebuilt-verified	isotope/HPLM_propionylCoA_stacked	rebuilt; p values and bar heights reproduce the published panel
+S4	B	schematic		n/a	biorender figures/patient schema	BioRender
+S4	C	plot	MDT patient data/plot_MSEA_contrasts.py	rebuilt-verified	MDT patient data/contrast_comparison/MSEA_NES_scatter	rebuilt; values reproduce the published panel. Input is de-identified patient tissue metabolomics (source-data workbook, sheets M4–M5).
+S4	D	plot	MDT patient data/plot_WThgg_volcano_BCAA.py	rebuilt-verified	MDT patient data/WThgg_vs_pooled_classifier/volcano_WThgg_vs_pooled_BCAA	rebuilt; labelled metabolites and thresholds reproduce the published panel. Input is de-identified patient tissue metabolomics (source-data workbook, sheets M4–M5).
+S4	E	plot	MDT patient data/plot_ggIle_ketoIle_carnitines.py	rebuilt-verified	MDT patient data/barplots/MDT_ggIle_ketoIle_carnitines_panel	rebuilt; 9 of 10 printed p values reproduced. Input is de-identified patient tissue metabolomics (source-data workbook, sheets M4–M5).
+S4	F	schematic		n/a	biorender figures/Branch Flux diagram	BioRender
+S4	G	plot	scXenograft/scripts/zd6_bcaa_objects.py	original	scXenograft/figures/bcaa_gene_heatmap_clustered_5lib_reordered	zd5_bcaa_reordered.py is an earlier version writing the same file
+5	A	plot		missing	histoneMS/0904_batch/acyl_stacked_shNT_BT245	no code available
+5	B	plot	histoneMS/plot_acylation_stacked.py	rebuilt-verified	histoneMS/mouseK9_acylation_stacked_Set2	rebuilt; values reproduce the published panel
+5	C	wetlab		n/a		immunoblot; quantified in S5D
+5	D	wetlab		n/a		IHC
+5	E	plot		missing	histoneMS/0904_batch/BT245_stacked_selected_acyl	no code available
+5	F	wetlab		n/a		immunoblot
+5	G	wetlab		n/a		immunofluorescence
+5	H	schematic		n/a	biorender figures/Propionylation	BioRender
+S5	A	plot		missing	histoneMS/0904_batch/acyl_stacked_shNT_DIPGXIII	no code available
+S5	B	wetlab		n/a		peptide dot blot
+S5	C	wetlab		n/a		immunoblot
+S5	D	plot	manuscript bar plots/plot_Cell_line_panel_WB.py	original	manuscript bar plots/Cell_line_panel_WB_barplots	Welch t, n=4 lines/group
+S5	E	wetlab		n/a		immunoblot
+S5	F	wetlab		n/a		immunoblot
+S5	G	plot		missing	histoneMS/0904_batch/DIPGXIII_stacked_selected_acyl	no code available
+S5	H	plot		missing	histoneMS/0904_batch/H3K9_methylation_stacked	no code available
+S5	I	wetlab		n/a		immunofluorescence
+S5	J	plot	histoneMS/plot_iBAQ_BCAA_AcylCoA.py	rebuilt-verified	histoneMS/iBAQ_BCAA_AcylCoA_barplot	rebuilt; values reproduce the published panel
+S5	K	plot	BCAT_protein_structure_conservation/scripts/fig_composite.py	original	BCAT_protein_structure_conservation/Fig_composite_BCAT1_BCAT2	alignment (fig01b_alignment_sequence.py); helpers in bcat_common.py
+S5	L	plot	BCAT_protein_structure_conservation/scripts/fig_composite.py	original	BCAT_protein_structure_conservation/Fig_composite_BCAT1_BCAT2	AlphaFold superposition (superpose.py, render3d.py, struct_features.py)
+S5	M	plot	BCAT_protein_structure_conservation/scripts/fig_composite.py	original	BCAT_protein_structure_conservation/Fig_composite_BCAT1_BCAT2	phastCons conservation (fetch_cons.py, fig03_conservation.py)
+6	A	plot	CUTRUN/scripts/replot_corr_chromatin_states.py	original	CUTRUN/analysis_QC_normalization/multimark_2026-07/plots/corr_heatmap_chromatin_states_10kb	upstream matrix CUTRUN/scripts/multimark_pca_corr.py
+6	B	plot	CUTRUN/scripts/plot_mark_density_10kb.py	rebuilt-verified	CUTRUN/analysis_QC_normalization/plots/H3K9pr_vs_ENL_density_10kb	rebuilt; values reproduce the published panel
+6	C	wetlab		n/a		immunoblot; quantified in S6B
+6	D	wetlab		n/a		Airyscan IF; quantified in S6C
+6	E	wetlab		n/a		immunoblot; quantified in S6E
+6	F	wetlab		n/a		clonogenic plate scans
+6	G	plot	CUTRUN/scripts/plot_ENL_promoter_ranking.py	rebuilt-verified	CUTRUN/analysis_QC_normalization/plots/ENL_promoter_ranking_proteincoding	rebuilt; values reproduce the published panel
+6	H	plot	CUTRUN/scripts/plot_delta_promoter_panels.py	rebuilt-UNVERIFIED	CUTRUN/analysis_QC_normalization/plots/deltaENL_spikein_DEGdown_H3K9pr	rebuilt; does NOT reproduce the published panel (see PROVENANCE.md)
+6	I	plot	CUTRUN/scripts/plot_delta_promoter_panels.py	rebuilt-UNVERIFIED	CUTRUN/analysis_QC_normalization/plots/human_deltaK9pr_violin_DEG	rebuilt; does NOT reproduce the published panel (see PROVENANCE.md)
+6	J	plot		missing	CUTRUN/analysis_QC_normalization/tracks/track_HSD17B11_split_v2	no code available
+6	K	schematic		n/a	biorender figures/ENL model	BioRender
+S6	A	plot	CUTRUN/scripts/plot_mark_density_10kb.py	rebuilt-verified	CUTRUN/analysis_QC_normalization/plots/H3K9pr_vs_H3K4me3_density_10kb	rebuilt; values reproduce the published panel
+S6	B	plot	manuscript bar plots/plot_Chromatin_fraction_WB.py	original	manuscript bar plots/Chromatin_fraction_WB_barplots	ratio-paired one-sample t vs 1
+S6	C	plot	manuscript bar plots/plot_ENL_IF_violin.py	original	manuscript bar plots/ENL_IF_violinplots	left violin
+S6	D	plot	manuscript bar plots/plot_ENL_IF_violin.py	original	manuscript bar plots/ENL_IF_violinplots	right violin; IF images are wet-lab
+S6	E	plot	manuscript bar plots/plot_TDI_WB.py	original	manuscript bar plots/TDI_WB_barplot	paired t, n=4 blots
+S6	F	plot	CUTRUN/scripts/plot_super_ENL_enrichment.py	rebuilt-verified	CUTRUN/analysis_QC_normalization/plots/ENL_super_metabolic_enrichment_inducibleSets	rebuilt; values reproduce the published panel
+S6	G	plot	CUTRUN/scripts/plot_delta_promoter_panels.py	rebuilt-UNVERIFIED	CUTRUN/analysis_QC_normalization/plots/deltaENL_spikein_DEGdown_H3K4me3	rebuilt; does NOT reproduce the published panel (see PROVENANCE.md)
+S6	H	plot		missing	CUTRUN/analysis_QC_normalization/plots/human_SREBPactivation_deltaH3K9pr_ENL	no code available
+7	A	schematic		n/a	biorender figures/diet schema	BioRender
+7	A	plot	diet data/plot_diet_composition.py	rebuilt-verified	diet data/diet_composition_piecharts	rebuilt; values reproduce the published panel
+7	B	plot	diet data/plot_diet_survival.py	rebuilt-verified	diet data/diet_survival_kaplan_meier	rebuilt; values reproduce the published panel
+7	C	wetlab		n/a		H&E histology
+7	D	plot	BCAAr_analysis/10_braindex_depleted_dotplot.py	original	BCAAr_analysis/figures/Braindex_depleted_dotplot_2HIT	
+7	E	plot	BCAAr_analysis/06b_2HIT_LE_heatmap_compact_short.py	original	BCAAr_analysis/figures/2HIT_LE_heatmap_compact_short	
+7	F	plot	CUTRUN/scripts/plot_mm10_FAmetab_H3K9pr.py	rebuilt-UNVERIFIED	CUTRUN/mm10_analysis/plots/mm10_FAmetab_H3K9pr_2HIT	rebuilt; not yet verified against the published panel
+7	G	plot	media/plot_media_BCAA.py	rebuilt-verified	media/BCAA_DMEMF12_vs_plasma	rebuilt; values reproduce the published panel
+7	H	wetlab		n/a		immunoblot; quantified in S7E
+7	I	plot	plasmidsaurusRNAseq/hybrid_correlation_2contrast.py	original	plasmidsaurusRNAseq/analysis_excl_outliers/COMPARE_inducible/hybrid_oldDIPG_shBCAT1/hybrid_IleuR_shBCAT1_heatmaps_BrBG_v2	DIPGXIII shBCAT1: inducible RNA-seq; BT245 shBCAT1 and both IleuR contrasts: second RNA-seq batch
+7	J	plot	plasmidsaurusRNAseq/ileur_merged_dotplot.py	original	plasmidsaurusRNAseq/analysis_excl_outliers/IleuR_merged_dotplot/IleuR_merged_dotplot	
+S7	A	plot	diet data/plot_diet_survival.py	rebuilt-verified	diet data/diet_survival_kaplan_meier_by_sex	rebuilt; values reproduce the published panel
+S7	B	plot	BCAAr_analysis/07_2HIT_metabolic_dotplot.py	original	BCAAr_analysis/figures/GSEA_metabolic_2HIT_dotplot	
+S7	C	plot		missing	CUTRUN/mm10_analysis/plots/mm10_H3K9pr_delta_byfeature	no code available
+S7	D	plot	scRNA_mouse/gsea_analysis/scripts/fig1_mpl.py	original	scRNA_mouse/gsea_analysis/figures/fig1_cell_identity_umap_v2	left UMAP; labels via relabel_figs_v2.R
+S7	D	plot	scRNA_mouse/gsea_analysis/scripts/fig4_mpl.py	original	scRNA_mouse/gsea_analysis/figures/fig4_fattyacid_zscore_by_celltype_v2	right UMAP
+S7	E	plot	manuscript bar plots/plot_IleuR_WB.py	original	manuscript bar plots/IleuR_WB_barplots	paired t, 416 vs 7 uM
+S7	F	plot	plasmidsaurusRNAseq/ileur_aastarv_gseaplot.py	original	plasmidsaurusRNAseq/analysis_excl_outliers/GSEA_IleuR_ISR_ATF4/gseaplot_AAstarvation_stacked	

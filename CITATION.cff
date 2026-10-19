@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "Analysis and figure code for: Co-option of developmental branched-chain amino acid catabolism maintains glioma progenitor cell states through histone propionylation"
+type: software
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-19"
+repository-code: "https://github.com/brianmkrug/BCAT1-propionylation"  # update if the repository name differs
+authors:
+  - family-names: Krug
+    given-names: Brian
+preferred-citation:
+  type: article
+  title: "Co-option of developmental branched-chain amino acid catabolism maintains glioma progenitor cell states through histone propionylation"
+  status: submitted
+  year: 2026
+  authors:
+    - {family-names: Krug, given-names: Brian}
+    - {family-names: Gatesman, given-names: Taylor A.}
+    - {family-names: Lopez Gutierrez, given-names: Rodrigo}
+    - {family-names: Jawhar, given-names: Wajih}
+    - {family-names: Graff, given-names: Sarah}
+    - {family-names: Stransky, given-names: Stephanie}
+    - {family-names: Chatoff, given-names: Adam}
+    - {family-names: Kantner, given-names: Daniel S.}
+    - {family-names: Mussa, given-names: Zarmeen}
+    - {family-names: Sahu, given-names: Varun}
+    - {family-names: Gretarsson, given-names: Kristjan H.}
+    - {family-names: Faria Andrade, given-names: Augusto}
+    - {family-names: Wang, given-names: Jin}
+    - {family-names: Noberini, given-names: Roberta}
+    - {family-names: Bonaldi, given-names: Tiziana}
+    - {family-names: Russo, given-names: Caterina}
+    - {family-names: Faury, given-names: Damien}
+    - {family-names: Juretic, given-names: Nikoleta}
+    - {family-names: Xu, given-names: Xinjing}
+    - {family-names: Taylor, given-names: Michael D.}
+    - {family-names: Xu, given-names: Jian}
+    - {family-names: Snyder, given-names: Nathaniel W.}
+    - {family-names: Sidoli, given-names: Simone}
+    - {family-names: Kleinman, given-names: Claudia L.}
+    - {family-names: Agnihotri, given-names: Sameer}
+    - {family-names: Jabado, given-names: Nada}
+    - {family-names: Lu, given-names: Chao}

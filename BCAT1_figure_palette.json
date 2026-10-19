@@ -1,0 +1,85 @@
+{
+  "_comment": "Standardized color palette for the BCAT1 glioma project figures. Derived from BCAAr_analysis/05_2HIT_LE_heatmap.py. Reuse these hex codes for the corresponding pathways / conditions across all project figures. Keys are the internal signature IDs; 'label' is the display name shown on figures.",
+  "_version": "1.8",
+  "_updated": "2026-08-13",
+
+  "genes": {
+    "_comment": "Canonical per-gene colors. ColorBrewer Dark2 green/purple pair, matching human_data/figB6_BCAT_simple, figB2, figB3, tabula_muris_OPC_oligo/figM_mouse_BCAT_simple and BCAT1_DepMap_analysis/fig_bcat1_vs_bcat2. Do NOT use the PRGn pair (#008837/#7b3294) for these genes -- #7b3294 is already assigned to the IleuR condition in plasmidsaurusRNAseq/ and to Steroid biosynthesis below.",
+    "BCAT1": { "label": "BCAT1", "hex": "#1b9e77" },
+    "BCAT2": { "label": "BCAT2", "hex": "#7570b3" }
+  },
+
+  "pathways": {
+    "Glycolysis":        { "label": "Glycolysis",         "hex": "#e8862a", "section": "metabolism" },
+    "OXPHOS":            { "label": "OXPHOS",             "hex": "#c0392b", "section": "metabolism" },
+    "Propanoate_metab":  { "label": "Propionate metab.",  "hex": "#2e86c1", "section": "metabolism" },
+    "BCAA_degradation":  { "label": "BCAA degradation",   "hex": "#1a5276", "section": "metabolism" },
+    "Lipid_FA":          { "label": "Lipid / FA metab.",  "hex": "#1e8449", "section": "metabolism" },
+    "OPC":               { "label": "OPC",                "hex": "#6c3483", "section": "cell_identity" },
+    "OL_diff":           { "label": "OL diff.",           "hex": "#117a65", "section": "cell_identity" }
+  },
+
+  "conditions": {
+    "control": { "label": "Control", "hex": "#2e8b3d" },
+    "BCAAr":   { "label": "BCAAr",   "hex": "#f0a020" },
+    "K27M":    { "label": "K27M",    "hex": "#c0392b" },
+    "KO":      { "label": "KO",      "hex": "#2166ac" }
+  },
+
+  "genotypes": {
+    "_comment": "Mouse Bcat1 genotype colors for KO-vs-WT figures (added v1.4 2026-08-13, per Brian). WT = blue, KO = yellow. NOTE: this intentionally differs from conditions.KO (#2166ac, blue) -- for mouse genotype panels use THIS block, not conditions.",
+    "WT": { "label": "WT",        "hex": "#2166ac" },
+    "KO": { "label": "Bcat1-KO",  "hex": "#f0a020" }
+  },
+
+  "metabolic_categories": {
+    "Steroid biosynthesis":   { "label": "Steroid biosynthesis",   "hex": "#7b3294" },
+    "One-carbon (folate)":    { "label": "One-carbon (folate)",    "hex": "#008837" },
+    "Selenocompound":         { "label": "Selenocompound",         "hex": "#e66101" },
+    "BCAA / other metabolic": { "label": "BCAA / other metabolic", "hex": "#2c7fb8" }
+  },
+
+  "isoleucine_dose": {
+    "_comment": "Sequential gradient for the isoleucine dose series (added v1.7 2026-08-13, inverted v1.8 per Brian). Anchored on #7b3294, already the IleuR condition color in plasmidsaurusRNAseq/. Darkest tone on the REPLETE dose (416 uM), fading as isoleucine is withdrawn, so colour intensity tracks isoleucine concentration. Ordinal -- use in dose order, do not reassign to unordered groups.",
+    "Ile_416uM": { "label": "416 µM", "hex": "#7b3294" },
+    "Ile_70uM":  { "label": "70 µM",  "hex": "#b083c4" },
+    "Ile_7uM":   { "label": "7 µM",   "hex": "#e2d0ea" }
+  },
+
+  "treatments": {
+    "_comment": "Drug-treatment pair for TDI-11055 experiments (added v1.6 2026-08-13). Neutral grey vehicle vs saturated magenta drug -- deliberately outside the genotype (blue/yellow), condition (green/orange/red/blue) and cell-line-group (teal/pink) sets so a treatment panel is not mistaken for any of those. Magenta #b5179e is unused elsewhere in the palette.",
+    "DMSO":       { "label": "DMSO",       "hex": "#8c8c8c" },
+    "TDI-11055":  { "label": "TDI-11055",  "hex": "#b5179e" }
+  },
+
+  "cell_line_groups": {
+    "_comment": "DMG vs non-DMG cell-line panel colors (added v1.5 2026-08-13). Deliberately distinct from the genotype (blue/yellow) and condition (green/orange/red/blue) sets so panel figures don't imply a WT/KO or control/treatment relationship. Okabe-Ito-adjacent, colorblind-safe teal / reddish-purple pair.",
+    "DMG":     { "label": "DMG",     "hex": "#0e7c7b" },
+    "non-DMG": { "label": "non-DMG", "hex": "#cc79a7" }
+  },
+
+  "cell_lines": {
+    "HSJ019": { "label": "HSJ019", "hex": "#404040" },
+    "BT245":  { "label": "BT245",  "hex": "#808080" }
+  },
+
+  "annotations": {
+    "highlight_gene":    { "hex": "#c0392b", "note": "gene-label color for emphasized genes (e.g. BCAT1)" },
+    "subgroup_divider":  { "color": "#595959", "linestyle": "dashed", "linewidth": 1.0, "note": "within-block divider, e.g. up- vs down-regulated genes" },
+    "section_label":     { "hex": "#555555", "note": "grey section bracket labels (e.g. METABOLISM / CELL IDENTITY)" }
+  },
+
+  "heatmap": {
+    "colormap": "RdBu_r",
+    "vmin": -2.0,
+    "vmax": 2.0,
+    "value_label": "Row Z-score (VST)",
+    "block_separator": { "color": "#ffffff", "linewidth": 2.6 }
+  },
+
+  "log2fc_heatmap": {
+    "colormap": "PuOr_r",
+    "center": 0,
+    "value_label": "log2FC (K27M vs KO)"
+  }
+}
